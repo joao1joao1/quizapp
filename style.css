@@ -2,12 +2,16 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    /* -webkit-font-smoothing: antialiased; SERVE PARA MELHORAR A RESOLUÇÃO DOS TEXTOS*/
 }
 
 :root {
     --bg-color: #f4f6fa;
     --purple: #a729f5;
     --white: #fff;
+    --primary-text-color: #313e51;
     --bg-mobile: url(./assets/images/pattern-background-mobile-light.svg);
 }
 
@@ -26,6 +30,7 @@ header {
 }
 
 .tema {
+    /* ÁREA DE MUDAR TEMA */
     padding: 8px 0;
     display: flex;
     align-items: center;
@@ -33,6 +38,7 @@ header {
 }
 
 .tema img {
+    /* ICON LUA E SOL */
     width: 16px;
 }
 
@@ -46,6 +52,7 @@ header {
 }
 
 .tema button div {
+    /* BOLINHA DENTRO DO BUTTON  DE TEMA CLARO/ESCURO */
     background-color: var(--white);
     width: 12px;
     height: 12px;
@@ -54,4 +61,10 @@ header {
 
 main {
     padding: 32px 24px;
+}
+
+main h1 {
+    font-size: 40px;
+    font-weight: 300;
+    color: var(--primary-text-color)
 }
