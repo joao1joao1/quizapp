@@ -151,8 +151,24 @@ main {
     header {
         margin-block: 81px;
     }
+
+    .tema {
+        gap: 16px;
+    }
     
-    
+    .tema img {
+        width: 24px;
+    }
+
+    .tema button {
+        width: 48px;
+        height: 28px;
+    }
+
+    .tema button div {
+        width: 20px;
+        height: 20px;
+    }
 
     main {
         display: flex;
@@ -187,5 +203,6 @@ main {
         width: 56px;
         height: 56px;
         padding: 8px;
+        /* 1:21 */
     }
 }
