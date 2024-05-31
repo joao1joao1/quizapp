@@ -11,6 +11,8 @@
     --bg-color: #f4f6fa;
     --purple: #a729f5;
     --white: #fff;
+    --green: #26d782;
+    --red: #ee5454;
     --button-bg: #fff;
     --primary-text-color: #313e51;
     --secundary-text-color: #626c7f;
@@ -157,7 +159,14 @@ main {
 }
 
 .alternativas label:has(input:checked) {
-    
+    /* significa: qnd label tiver uma input verificada */
+    outline: 3px solid var(--purple);
+
+    & span {
+        /* significa: E TBM faça isso abaixo, qnd a input for checked */
+        background: var(--purple);
+        color: var(--white);
+    }
 }
 
 .alternativas input {
@@ -182,7 +191,6 @@ main {
     justify-content: center;
     flex-shrink: 0;
 }
-/* 2:31:31 */
 
 .alternativas button {
     padding: 16px;
