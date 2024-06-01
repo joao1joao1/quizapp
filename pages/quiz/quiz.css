@@ -27,10 +27,11 @@
     --bg-mobile: url(../../assets/images/pattern-background-mobile-light.svg);
     --bg-desktop: url(../../assets/images/pattern-background-desktop-light.svg);
 }
+
 /* 3:12:48 */
 body.escuro {
     --bg-color: #313e51;
-    --color-span:#313e51;
+    --color-span: #313e51;
     --bg-mobile: url(../../assets/images/pattern-background-mobile-dark.svg);
     --bg-desktop: url(../../assets/images/pattern-background-desktop-dark.svg);
     --primary-text-color: #fff;
@@ -191,7 +192,7 @@ main {
     }
 }
 
-.alternativas label#errada{
+.alternativas label#errada {
 
     outline: 3px solid var(--red);
 
@@ -240,7 +241,7 @@ main {
     cursor: pointer;
 }
 
-@media(min-width: 1100px){
+@media(min-width: 1100px) {
 
     body {
         background: var(--bg-desktop) var(--bg-color);
@@ -267,7 +268,7 @@ main {
     .tema {
         gap: 16px;
     }
-    
+
     .tema img {
         width: 24px;
     }
