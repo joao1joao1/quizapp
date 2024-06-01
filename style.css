@@ -42,6 +42,8 @@ body {
 }
 
 header {
+    max-width: 1160px;
+    margin-inline: auto;
     padding: 16px 24px;
     display: flex;
     justify-content: flex-end;
