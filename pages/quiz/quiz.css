@@ -233,7 +233,8 @@ main {
     width: 100%;
     font-size: 18px;
     font-weight: 500;
-    transition: background 0.7s;
+    transition: background 0.3s;
+    color: var(--white);
 }
 
 .alternativas button:hover {
