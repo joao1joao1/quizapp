@@ -28,7 +28,6 @@
     --bg-desktop: url(../../assets/images/pattern-background-desktop-light.svg);
 }
 
-/* 3:12:48 */
 body.escuro {
     --bg-color: #313e51;
     --color-span: #313e51;
