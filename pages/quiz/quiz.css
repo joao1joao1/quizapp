@@ -75,7 +75,7 @@ header {
     background: var(--bg-css);
 }
 
-.assunto_icone.js {
+.assunto_icone.javascript {
     background: var(--bg-javascript);
 }
 
@@ -157,7 +157,6 @@ main {
 
 .barra_progresso div {
     height: 100%;
-    width: 60%;
     background: var(--purple);
     border-radius: 999px;
 }
